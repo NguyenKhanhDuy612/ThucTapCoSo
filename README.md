@@ -9,9 +9,13 @@ Trong đời sống, chúng ta thường gặp những tình huống như sau:đ
 
 ![image](https://user-images.githubusercontent.com/78671855/147800210-5e903b7e-ee27-4fb8-b352-1087f5d09804.png)
 
-o	Sau khi có được đỉnh đầu và đỉnh cuối, tạo mảng lưu các đỉnh và trọng số ngắn nhất từ đỉnh đầu đến các đỉnh còn lại.
-o	Cho trọng số các đỉnh chưa duyệt là vô cùng.
-o	Vòng lặp for đầu tiên để duyệt các đỉnh kề với đỉnh đầu được chọn.
-o	Vòng lặp for thứ hai là kiểm tra xem các đỉnh không kề có đường đi đến hay không. Nếu không có thì vẫn là vô cùng, nếu có đường đi ngắn hơn thì cập nhật lại.
-o	Cứ như thế khi nào đến hết thì thoát khỏi vòng lặp while.
+Sau khi có được đỉnh đầu và đỉnh cuối, tạo mảng lưu các đỉnh và trọng số ngắn nhất từ đỉnh đầu đến các đỉnh còn lại.
+
+Cho trọng số các đỉnh chưa duyệt là vô cùng.
+
+Vòng lặp for đầu tiên để duyệt các đỉnh kề với đỉnh đầu được chọn.
+
+Vòng lặp for thứ hai là kiểm tra xem các đỉnh không kề có đường đi đến hay không. Nếu không có thì vẫn là vô cùng, nếu có đường đi ngắn hơn thì cập nhật lại.
+
+Cứ như thế khi nào đến hết thì thoát khỏi vòng lặp while.
 
