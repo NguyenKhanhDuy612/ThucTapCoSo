@@ -27,12 +27,19 @@ Cứ như thế khi nào đến hết thì thoát khỏi vòng lặp while.
 
 ![image](https://user-images.githubusercontent.com/78671855/147800598-1ba6bdd3-394b-4e37-845f-bcc0beba7c73.png)
 ![image](https://user-images.githubusercontent.com/78671855/147800603-1b8911f8-4d3f-48bb-bc6b-9d7949ebdac1.png)
+
 Tạo ma trận A lưu độ dài các cạnh (số thực), tức là A[x,y] là độ dài của cạnh (x,y), nếu không có cạnh (x,y) thì A[x,y] = ∞.
+
 Mảng S[n] trong đó n là số nguyên lưu các số 0 và 1, đây là một vecto biểu diễn tập hợp S.
+
 Nếu S[x]==1 là x thuộc S, nếu S[x] == 0 là thuộc tập V-S.
+
 Khởi đầu cho S[x0]=1 nghĩa là x0 thuộc tập S, và các S[x]=0 nghĩa là các x còn lại nằm ngoại tập hợp S. Tại mỗi bước nếu w (đường đi ngắn nhất) được đưa vào S => đặt S[w]=1.
+
 Mảng D[n] để lưu độ dài của đường đi ngắn nhất từ x0 đến mỗi đỉnh của đồ thị.
+
 Khởi đầu cho D[x] bằng độ dài của x0 đến x thì D[x]=A[x0,x], nếu không có cạnh từ x0 đến x thì D[x]=∞ .
+
 Tại mỗi bước, sẽ cập nhật lại D[x] để lưu độ dài đường đi ngắn nhất từ đỉnh x0 tới đỉnh x, đường đi này chỉ đi qua các đỉnh đã có trong S.
  
 Giả sử đỉnh U đến V là ngắn hơn đường trước đó thì sẽ xóa đường cũ đi và cập nhật lại.
